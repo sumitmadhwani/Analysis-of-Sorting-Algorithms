@@ -8,9 +8,10 @@ Finally, a report is generated using `LaTeX`.
 
 Size of input array is taken from 100 uptill 10000 incrementing by 100 everytime. If you want to change the size of input array, you can manually change it in all the C files.
 
-Make sure you `texlive` and `gnuplot` installed in your system.
+Make sure you have `texlive` and `gnuplot` installed in your system.
 
 `sudo apt-get install texlive`
+
 `sudo apt-get install gnuplot`
 
 To generate graphs,
