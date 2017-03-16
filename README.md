@@ -2,7 +2,7 @@
 Graphical representation of different sorting algorithms on various input sizes.
 
 Sorting algorithms differ from each other mainly based on the number of comparisons they make and time taken to sort the provided list of numbers.
-In this project, most commonly used sorting algorithms like Bubble Sort, Insertion Sort, Selection Sort, Merge Sort and Quick Sort are implemented and tested on different sizes of input array generated randomly. Time taken and number of comparisons made by all the algorithms is recorded and finnaly plotted on a graph using `gnuplot`. 
+In this project, most commonly used sorting algorithms like Bubble Sort, Insertion Sort, Selection Sort, Merge Sort and Quick Sort are implemented and tested on different sizes of input array generated randomly. Time taken and number of comparisons made by all the algorithms is recorded and plotted on a graph using `gnuplot`. 
 
 Finally, a report is generated using `LaTeX`.
 
