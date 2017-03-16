@@ -1,0 +1,12 @@
+#!usr/bin/gnuplot
+set term post font 'Helvatica,25'
+set xlabel 'SIZE OF ARRAY'
+set ylabel 'TIME TAKEN'
+set key right top
+set logscale y
+set style data linespoints
+set term post enh color eps
+set output 'time_graph.eps'
+#set autoscale x
+plot "selection_time"  lw 4 title 'selection sort',"bubble_time" lw 2 title 'bubble sort',"insertion_time" lw 2 title 'insertion sort',"merge_time" lw 2 title 'merge sort',"quick_time" lw 2 title 'quick sort'
+

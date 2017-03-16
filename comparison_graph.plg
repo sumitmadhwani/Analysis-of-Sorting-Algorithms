@@ -1,0 +1,11 @@
+#!/usr/bin/gnuplot
+set term post font 'Helvatica,25'
+set xlabel 'SIZE OF ARRAY'
+set ylabel 'NUMBER OF COMPARISONS'
+set key right top
+set logscale y
+set style data linespoints
+set term post enh color eps
+set output 'comparison_graph.eps'
+#set autoscale x
+plot "selection"  lw 4 title 'selection sort',"bubblesort" lw 2 title 'bubble sort',"insertion" lw 2 title 'insertion sort',"merge" lw 2 title 'merge sort',"quick" lw 2 title 'quick sort' 
